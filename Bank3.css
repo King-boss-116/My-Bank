@@ -1,0 +1,90 @@
+.parent{
+    width:100%;
+    height:100%;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url("https://images.pexels.com/photos/2225229/pexels-photo-2225229.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    background:url("https://media.istockphoto.com/id/639736300/photo/los-angeles.jpg?b=1&s=170667a&w=0&k=20&c=pSswQzS6EmHUA2Kt-byTDWYdqQvVQjRqDvBszsyF4P0=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.main{
+    height:90%;
+    width:90%;
+    /* background-color: #3c00a0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.part{
+    width:30%;
+    height:80%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       /* gap:20px; */
+}
+
+
+
+.partone{
+    margin-top:10px;
+    width:300px;
+    height:50px;
+    background-color: white;
+    /* box-sizing: border-box;
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap:20px; */
+    border:none;
+    
+
+}
+
+.partone input[type="text"]{
+    background-color: white;
+    width:90%;
+    margin-left:5px;
+    border:none;
+    outline: none;
+
+    
+}
+
+.partone i{
+    margin-left:5px;
+    
+    
+}
+
+.partone button{
+    width:90%;
+    display: flex;
+    height:85%;
+
+    justify-content: center;
+    align-items: center;
+    border:none;
+     /* background-color: blue; */
+}
+
+
+.partone button{
+    width:100%;
+    display: flex;
+    
+}
+
